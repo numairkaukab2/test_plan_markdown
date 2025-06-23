@@ -7,42 +7,24 @@ IEEE 829 - Standard for Test Documentation Overview
 
 
 1. [Test Plan Identifier](#test-plan-identifier)  
-
-2. [References](#2)  
-
-3. [Introduction](#3)  
-
-4. [Test Items](#4)  
-
-5. [Software Risk Issues](#5)  
-
-6. [Features to be Tested](#6)  
-
-7. [Features not to be Tested](#7)  
-
-8. [Approach](#8)  
-
-9. [Item Pass/Fail Criteria](#9)  
-
-10. [Suspension Criteria and Resumption Requirements](#10)  
-
-11. [Test Deliverables](#11)  
-
-12. [Remaining Test Tasks](#12)  
-
-13. [Environmental Needs](#13)  
-
-14. [Staffing and Training Needs](#14)  
-
-15. [Responsibilities](#15)  
-
-16. [Schedule](#16)  
-
-17. [Planning Risks and Contingencies](#17)  
-
-18. [Approvals](#18)  
-
-19. [Glossary](#19)
+2. [References](#references)  
+3. [Introduction](#introduction)  
+4. [Test Items](#test-items)  
+5. [Software Risk Issues](#software-risk-issues)  
+6. [Features to be Tested](#features-to-be-tested)  
+7. [Features not to be Tested](#features-not-to-be-tested)  
+8. [Approach](#approach)  
+9. [Item Pass/Fail Criteria](#item-passfail-criteria)  
+10. [Suspension Criteria and Resumption Requirements](#suspension-criteria-and-resumption-requirements)  
+11. [Test Deliverables](#test-deliverables)  
+12. [Remaining Test Tasks](#remaining-test-tasks)  
+13. [Environmental Needs](#environmental-needs)  
+14. [Staffing and Training Needs](#staffing-and-training-needs)  
+15. [Responsibilities](#responsibilities)  
+16. [Schedule](#schedule)  
+17. [Planning Risks and Contingencies](#planning-risks-and-contingencies)  
+18. [Approvals](#approvals)  
+19. [Glossary](#glossary)
 # IEEE TEST PLAN TEMPLATE
 
 
