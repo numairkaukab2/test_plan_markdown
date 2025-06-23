@@ -1,31 +1,54 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>IEEE 829 - Standard for Test Documentation Overview</title>
-<body id="dummybodyid">
 
-<h1><a id="top"></a>TEST PLAN OUTLINE<br>
-(IEEE 829 Format)</h1>
+IEEE 829 - Standard for Test Documentation Overview
 
-1. <a href="#1">Test Plan Identifier</a><br>
-2. <a href="#2">References</a><br>
-3. <a href="#3">Introduction</a><br>
-4. <a href="#4">Test Items</a><br>
-5. <a href="#5">Software Risk Issues</a><br>
-6. <a href="#6">Features to be Tested</a><br>
-7. <a href="#7">Features not to be Tested</a><br>
-8. <a href="#8">Approach</a><br>
-9. <a href="#9">Item Pass/Fail Criteria</a><br>
-10. <a href="#10">Suspension Criteria and Resumption Requirements</a><br>
-11. <a href="#11">Test Deliverables</a><br>
-12. <a href="#12">Remaining Test Tasks</a><br>
-13. <a href="#13">Environmental Needs</a><br>
-14. <a href="#14">Staffing and Training Needs</a><br>
-15. <a href="#15">Responsibilities</a><br>
-16. <a href="#16">Schedule</a><br>
-17. <a href="#17">Planning Risks and Contingencies</a><br>
-18. <a href="#18">Approvals</a><br>
-19. <a href="#19">Glossary</a>
-<h1>IEEE TEST PLAN TEMPLATE</h1>
-<h2><a id="1"></a>Test Plan Identifier</h2>
+# TEST PLAN OUTLINE
+(IEEE 829 Format)
+
+
+
+1. [Test Plan Identifier](#1)  
+
+2. [References](#2)  
+
+3. [Introduction](#3)  
+
+4. [Test Items](#4)  
+
+5. [Software Risk Issues](#5)  
+
+6. [Features to be Tested](#6)  
+
+7. [Features not to be Tested](#7)  
+
+8. [Approach](#8)  
+
+9. [Item Pass/Fail Criteria](#9)  
+
+10. [Suspension Criteria and Resumption Requirements](#10)  
+
+11. [Test Deliverables](#11)  
+
+12. [Remaining Test Tasks](#12)  
+
+13. [Environmental Needs](#13)  
+
+14. [Staffing and Training Needs](#14)  
+
+15. [Responsibilities](#15)  
+
+16. [Schedule](#16)  
+
+17. [Planning Risks and Contingencies](#17)  
+
+18. [Approvals](#18)  
+
+19. [Glossary](#19)
+# IEEE TEST PLAN TEMPLATE
+
+
+## Test Plan Identifier
+
+
 
 Some type of unique company generated number to identify this test plan, its 
 level and the level of software that it is related to. Preferably the test plan 
@@ -42,7 +65,9 @@ revision numbers.
 You may want to include author and contact information including the 
 revision history information as part of either the identifier section of as 
 part of the introduction.
-<h2><a id="2"></a>References</h2>
+## References
+
+
 
 List all documents that support this test plan. Refer to the actual 
 version/release number of the document as stored in the configuration 
@@ -58,7 +83,9 @@ Documents that can be referenced include:
 * Methodology guidelines and examples
 * Corporate standards and guidelines
 
-<h2><a id="3"></a>Introduction</h2>
+## Introduction
+
+
 
 State the purpose of the Plan, possibly identifying the level of the plan 
 (master etc.). This is essentially the executive summary part of the plan.
@@ -70,11 +97,13 @@ can create a references section to contain all reference documents.
 Identify the Scope of the plan in relation to the Software Project plan that 
 it relates to. Other items may include, resource and budget constraints, scope 
 of the testing effort, how testing relates to other evaluation activities 
-(Analysis &amp; Reviews), and possible the process to be used for change control 
+(Analysis & Reviews), and possible the process to be used for change control 
 and communication and coordination of key activities.
 
 As this is the "Executive Summary" keep information brief and to the point.
-<h2><a id="4"></a>Test Items (Functions)</h2>
+## Test Items (Functions)
+
+
 
 These are things you intend to test within the scope of this test plan. 
 Essentially, something you will test, a list of what is to be tested. This can 
@@ -92,7 +121,9 @@ Remember, what you are testing is what you intend to deliver to the Client.
 This section can be oriented to the level of the test plan. For higher 
 levels it may be by application or functional area, for lower levels it may be 
 by program, unit, module or build.
-<h2><a id="5"></a>Software Risk Issues</h2>
+## Software Risk Issues
+
+
 
 Identify what software is to be tested and what the critical areas are, such 
 as: 
@@ -131,7 +162,9 @@ brainstorming sessions.
 * Start with ideas, such as, what worries me about this 
 project/application.
 
-<h2><a id="6"></a>Features to be Tested</h2>
+## Features to be Tested
+
+
 
 This is a listing of what is to be tested from the USERS viewpoint of what 
 the system does. This is not a technical description of the software, but a 
@@ -144,9 +177,11 @@ User. You should be prepared to discuss why a particular level was chosen.
 It should be noted that Section 4 and Section 6 are very similar. The only 
 true difference is the point of view. Section 4 is a technical type description 
 including version numbers and other technical information and Section 6 is from 
-the User’s viewpoint. Users do not understand technical software terminology; 
+the Userâs viewpoint. Users do not understand technical software terminology; 
 they understand functions and processes as they relate to their jobs.
-<h2><a id="7"></a>Features not to be Tested</h2>
+## Features not to be Tested
+
+
 
 This is a listing of what is NOT to be tested from both the Users viewpoint 
 of what the system does and a configuration management/version control view. 
@@ -166,7 +201,9 @@ Sections 6 and 7 are directly related to Sections 5 and 17. What will and
 will not be tested are directly affected by the levels of acceptable risk 
 within the project, and what does not get tested affects the level of risk of 
 the project. 
-<h2><a id="8"></a>Approach (Strategy)</h2>
+## Approach (Strategy)
+
+
 
 This is your overall test strategy for this test plan; it should be 
 appropriate to the level of the plan (master, acceptance, etc.) and should be 
@@ -208,21 +245,23 @@ if the information is available.
 
 
 How will meetings and other organizational processes be handled?
-<h2><a id="9"></a>Item Pass/Fail Criteria</h2>
+## Item Pass/Fail Criteria
+
+
 
 What are the Completion criteria for this plan? This is a critical aspect of 
 any test plan and should be appropriate to the level of the plan. 
 
 * At the Unit test level this could be items such as:
-  - All test cases completed.
-  - A specified percentage of cases completed with a percentage containing 
+ - All test cases completed.
+ - A specified percentage of cases completed with a percentage containing 
  some number of minor defects.
-  - Code coverage tool indicates all code covered.
+ - Code coverage tool indicates all code covered.
 
 
 * At the Master test plan level this could be items such as:
-  - All lower level plans completed.
-  - A specified number of plans completed without errors and a percentage 
+ - All lower level plans completed.
+ - A specified number of plans completed without errors and a percentage 
  with minor defects.
 
 
@@ -235,14 +274,16 @@ What is the number and severity of defects located?
 
 * Is it possible to compare this to the total number of defects? This may 
 be impossible, as some defects are never detected.
-  - A defect is something that may cause a failure, and may be acceptable 
+ - A defect is something that may cause a failure, and may be acceptable 
  to leave in the application.
-  - A failure is the result of a defect as seen by the User, the system 
+ - A failure is the result of a defect as seen by the User, the system 
  crashes, etc.
 
 
 
-<h2><a id="10"></a>Suspension Criteria and Resumption Requirements</h2>
+## Suspension Criteria and Resumption Requirements
+
+
 
 Know when to pause in a series of tests. 
 
@@ -258,7 +299,9 @@ defects.
 Testing after a truly fatal error will generate conditions that may be 
 identified as defects but are in fact ghost errors caused by the earlier 
 defects that were ignored.
-<h2><a id="11"></a>Test Deliverables</h2>
+## Test Deliverables
+
+
 
 What is to be delivered as part of this plan? 
 
@@ -274,7 +317,9 @@ What is to be delivered as part of this plan?
 
 One thing that is not a test deliverable is the software itself that is 
 listed under test items and is delivered by development.
-<h2><a id="12"></a>Remaining Test Tasks</h2>
+## Remaining Test Tasks
+
+
 
 If this is a multi-phase process or if the application is to be released in 
 increments there may be parts of the application that this plan does not 
@@ -291,7 +336,9 @@ wasting resources tracking defects that do not relate to this plan.
 When a third party is developing the software, this section may contain 
 descriptions of those test tasks belonging to both the internal groups and the 
 external groups.
-<h2><a id="13"></a>Environmental Needs</h2>
+## Environmental Needs
+
+
 
 Are there any special requirements for this test plan, such as: 
 
@@ -303,7 +350,9 @@ or specific ranges of data that must be provided?
 * Specific versions of other supporting software.
 * Restricted use of the system during testing.
 
-<h2><a id="14"></a>Staffing and Training needs</h2>
+## Staffing and Training needs
+
+
 
 Training on the application/system.
 
@@ -311,7 +360,9 @@ Training for any test tools to be used.
 
 Section 4 and Section 15 also affect this section. What is to be tested and 
 who is responsible for the testing and training.
-<h2><a id="15"></a>Responsibilities</h2>
+## Responsibilities
+
+
 
 Who is in charge?
 
@@ -327,7 +378,9 @@ is done on the production system.
 * Who makes the critical go/no go decisions for items not covered in the 
 test plans?
 
-<h2><a id="16"></a>Schedule</h2>
+## Schedule
+
+
 
 Should be based on realistic and validated estimates. If the estimates for 
 the development of the application are inaccurate, the entire project plan will 
@@ -335,8 +388,8 @@ slip and the testing is part of the overall project plan.
 
 * As we all know, the first area of a project plan to get cut when it comes 
 to crunch time at the end of a project is the testing. It usually comes down 
-to the decision, ‘Let’s put something out even if it does not really work all 
-that well’. And, as we all know, this is usually the worst possible decision.
+to the decision, âLetâs put something out even if it does not really work all 
+that wellâ. And, as we all know, this is usually the worst possible decision.
 
 
 How slippage in the schedule will to be handled should also be addressed 
@@ -344,7 +397,7 @@ here.
 
 * If the users know in advance that a slippage in the development will 
 cause a slippage in the test and the overall delivery of the system, they 
-just may be a little more tolerant, if they know it’s in their interest to 
+just may be a little more tolerant, if they know itâs in their interest to 
 get a better tested application.
 * By spelling out the effects here you have a chance to discuss them in 
 advance of their actual occurrence. You may even get the users to agree to a 
@@ -362,7 +415,9 @@ the cause of a delay. For example, if system testing is to begin after delivery
 of the final build, then system testing begins the day after delivery. If the 
 delivery is late, system testing starts from the day of deliver y, not on a 
 specific date. This is called dependent or relative dating.
-<h2><a id="17"></a>Planning Risks and Contingencies</h2>
+## Planning Risks and Contingencies
+
+
 
 What are the overall risks to the project with an emphasis on the testing 
 process? 
@@ -379,19 +434,19 @@ Specify what will be done for various events, for example:
 * Requirements definition will be complete by January 1, 19XX, and, if the 
 requirements change after that date, the following actions will be taken: 
 
-  - The test schedule and development schedule will move out an appropriate 
+ - The test schedule and development schedule will move out an appropriate 
 number of days. This rarely occurs, as most projects tend to have fixed 
 delivery dates.
-  - The number of test performed will be reduced.
-  - The number of acceptable defects will be increased.
-    - These two items could lower the overall quality of the delivered 
+ - The number of test performed will be reduced.
+ - The number of acceptable defects will be increased.
+ - These two items could lower the overall quality of the delivered 
  product.
-  - Resources will be added to the test team.
-  - The test team will work overtime (this could affect team morale).
-  - The scope of the plan may be changed.
-  - There may be some optimization of resources. This should be avoided, if 
+ - Resources will be added to the test team.
+ - The test team will work overtime (this could affect team morale).
+ - The scope of the plan may be changed.
+ - There may be some optimization of resources. This should be avoided, if 
 possible, for obvious reasons.
-  - You could just QUIT. A rather extreme option to say the least.
+ - You could just QUIT. A rather extreme option to say the least.
 
 
 Management is usually reluctant to accept scenarios such as the one above 
@@ -400,7 +455,9 @@ even though they have seen it happen in the past.
 The important thing to remember is that, if you do nothing at all, the usual 
 result is that testing is cut back or omitted completely, neither of which 
 should be an acceptable option.
-<h2><a id="18"></a>Approvals</h2>
+## Approvals
+
+
 
 Who can approve the process as complete and allow the project to proceed to 
 the next level (depending on the level of the plan)?
@@ -422,10 +479,11 @@ programmers that claim to fully understand the business process. These types
 of individuals can cause more harm than good if they do not have the skills 
 they believe they possess.
 
-<h2><a id="19"></a>Glossary</h2>
+## Glossary
+
+
 
 Used to define terms and acronyms used in the document, and testing in 
 general, to eliminate confusion and promote consistent communications.
 
-<a href="#top">top</a>
-</body></html>
+[top](#top)
